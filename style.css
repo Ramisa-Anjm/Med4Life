@@ -627,12 +627,20 @@ footer p {
 
 .social-links {
     display: flex;
-    gap: 20px;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
 }
 
 .social-links a {
-    font-size: 28px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
     color: #155E75;
+    text-decoration: none;
     transition: 0.2s;
 }
 
