@@ -629,24 +629,29 @@ footer p {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 16px;
+    gap: 14px;
+    margin: 20px 0;
 }
 
 .social-links a {
-    display: flex;
+    display: inline-flex;
+    width: 36px;
+    height: 36px;
+    padding: 0;
+    margin: 0;
     align-items: center;
     justify-content: center;
+    text-decoration: none;
 }
 
 .social-links img {
-    width: 32px;
-    height: 32px;
+    width: 28px;
+    height: 28px;
     object-fit: contain;
     display: block;
-    transition: 0.2s;
 }
 
 .social-links a:hover img {
-    transform: translateY(-3px);
+    transform: translateY(-2px);
     opacity: 0.7;
 }
