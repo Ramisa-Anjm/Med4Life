@@ -627,31 +627,20 @@ footer p {
 
 .social-links {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 14px;
-    margin: 20px 0;
+    gap: 8px;
+    margin-bottom: 20px;
+
 }
 
 .social-links a {
-    display: inline-flex;
-    width: 36px;
-    height: 36px;
-    padding: 0;
-    margin: 0;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-}
-
-.social-links img {
-    width: 28px;
-    height: 28px;
-    object-fit: contain;
+    width: 45px;
+    height: 45px;
     display: block;
 }
 
-.social-links a:hover img {
-    transform: translateY(-2px);
-    opacity: 0.7;
+.social-links img {
+    width: 45px;
+    height: 45px;
+    object-fit: contain;
+    display: block;
 }
