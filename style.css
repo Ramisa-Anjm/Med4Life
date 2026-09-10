@@ -633,18 +633,20 @@ footer p {
 }
 
 .social-links a {
-    display: inline-flex;
+    display: flex;
     align-items: center;
     justify-content: center;
-    width: 40px;
-    height: 40px;
-    font-size: 22px;
-    color: #155E75;
-    text-decoration: none;
+}
+
+.social-links img {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+    display: block;
     transition: 0.2s;
 }
 
-.social-links a:hover {
+.social-links a:hover img {
     transform: translateY(-3px);
     opacity: 0.7;
 }
